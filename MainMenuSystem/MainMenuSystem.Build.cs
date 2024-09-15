@@ -8,7 +8,14 @@ public class MainMenuSystem : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "Engine", "CoreUObject" });
+		PublicDependencyModuleNames.AddRange(new string[] { 
+			"Core", 
+			"Engine", 
+			"CoreUObject",
+            "UMG",
+            "LobbySystem",
+			"MenuUICore"
+		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 	}
