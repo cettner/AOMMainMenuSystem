@@ -2,7 +2,7 @@
 
 
 #include "MainMenu/MainMenu.h"
-#include "UI/MultiplayerMenuWidget.h"
+#include "Multiplayer/MultiplayerMenuWidget.h"
 #include "Settings/GameplaySettingsWidget.h"
 
 
