@@ -13,7 +13,7 @@ public class MainMenuSystem : ModuleRules
 			"Engine", 
 			"CoreUObject",
             "UMG",
-            "LobbySystem",
+            "SessionPartySystem",
 			"MenuUICore"
 		});
 
